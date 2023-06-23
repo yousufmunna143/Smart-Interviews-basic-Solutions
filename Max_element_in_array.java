@@ -1,12 +1,10 @@
 // Find maximum element from the given array of integers.
-import java.io.*;
 import java.util.*;
 
 public class Max_element_in_array {
 
-    public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        // creating a scanner object to take input
+    public static void main(String[] args) 
+    {
         Scanner sc=new Scanner(System.in);
         // N denotes size of array and temp is variable to store a element of an array
         int N=sc.nextInt();
@@ -22,5 +20,6 @@ public class Max_element_in_array {
         }
         // Printing max element of the array on console
         System.out.println(max);
+        sc.close();
     }
 }

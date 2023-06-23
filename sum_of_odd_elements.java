@@ -1,4 +1,24 @@
-import java.io.*;
+/*
+Print sum of all odd elements in an array.
+
+Input Format
+
+First line of input contains N - the size of the array and second line contains array elements.
+
+Constraints
+
+1 <= N <= 100
+-109 <= ar[i] <= 109
+
+Output Format
+
+Print sum of all odd elements of the given array.
+
+Sample Input 0
+
+5
+6 9 8 4 3
+ */
 import java.util.*;
 
 public class sum_of_odd_elements 
@@ -21,5 +41,6 @@ public class sum_of_odd_elements
                     }
                 }
                 System.out.println(result);
+                sc.close();
     }
 }
